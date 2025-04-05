@@ -1,0 +1,54 @@
+{
+  "name": "code-beautifier",
+  "displayName": "Code Beautifier",
+  "description": "Beautify and format your code without external dependencies",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "activationEvents": [
+    "onCommand:code-beautifier.beautify"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "code-beautifier.beautify",
+        "title": "Beautify Code"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "code-beautifier.beautify",
+        "key": "ctrl+alt+b",
+        "mac": "cmd+alt+b"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "code-beautifier.beautify",
+          "group": "1_modification"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Code Beautifier",
+      "properties": {
+        "codeBeautifier.preserveNewlines": {
+          "type": "boolean",
+          "default": true,
+          "description": "Preserve existing newlines"
+        },
+        "codeBeautifier.maxPreserveNewlines": {
+          "type": "number",
+          "default": 2,
+          "description": "Maximum number of consecutive newlines to preserve"
+        }
+      }
+    }
+  }
+}
