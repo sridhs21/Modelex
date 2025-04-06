@@ -15,8 +15,6 @@ Modelex is a VS Code extension that formats and beautifies your code for improve
 - **Comment Handling**: Properly formats and aligns comments without changing their content
 - **Integration with VS Code**: Works with VS Code's built-in formatting capabilities
 
-![Code Beautifier in Action](images/beautifier-demo.gif)
-
 ## Requirements
 
 - Visual Studio Code 1.60.0 or higher
