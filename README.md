@@ -1,16 +1,15 @@
 # Modelex - Code Beautifier
 
-<img src="assets/images/full_logo.png" alt="Code Beautifier Logo" width="400" height="400">
+<img src="assets/images/full_logo.png" alt="Code Beautifier Logo" width="400">
 
 ## Overview
-Modelex is a VS Code extension that formats and beautifies your code for improved readability and consistency. It supports multiple programming languages and integrates seamlessly with VS Code's formatting capabilities.
+Modelex is a VS Code extension that formats and beautifies your code for improved readability and consistency. It supports multiple programming languages and integrates with VS Code's formatting capabilities.
 
 ## Features
 
 - **Multi-language Support**: Formats JavaScript, TypeScript, JSON, HTML, CSS, Python, Java, C, and C++ files
-- **Keyboard Shortcut**: Quickly beautify your code with a simple keyboard shortcut
-- **Format on Save**: Option to automatically format your code when saving files
-- **Language-Specific Formatting**: Custom formatting rules for each supported language
+- **Keyboard Shortcut**: Quickly beautify your code with a keyboard shortcut
+- **Format on Save**: Option to format your code when saving files
 - **Indentation Preservation**: Maintains your existing indentation preferences
 - **Comment Handling**: Properly formats and aligns comments without changing their content
 - **Integration with VS Code**: Works with VS Code's built-in formatting capabilities
@@ -43,13 +42,8 @@ Right-click in the editor and select "Beautify Code" from the context menu.
 
 This extension contributes the following settings:
 
-* `codeBeautifier.enableFormatOnSave`: Enable/disable automatic formatting when saving files
-* `codeBeautifier.formatOnSaveLanguages`: List of languages to format on save
-* `codeBeautifier.insertSpaces`: Use spaces for indentation (follows VS Code editor settings if not specified)
-* `codeBeautifier.tabSize`: Number of spaces per indentation level (follows VS Code editor settings if not specified)
-* `codeBeautifier.braceStyle`: Brace style for C-family languages ("same-line" or "new-line")
-* `codeBeautifier.preserveEmptyLines`: Controls whether to preserve empty lines in the code
-* `codeBeautifier.maxEmptyLines`: Maximum number of consecutive empty lines to retain (default: 1)
+* `codeBeautifier.preserveNewlines`: Preserve existing newlines (default: `true`)
+* `codeBeautifier.maxPreserveNewlines`: Maximum number of consecutive newlines to preserve (default: `2`)
 
 ## Supported Languages
 
@@ -85,6 +79,10 @@ If you encounter issues with formatting:
 - Smart comment preservation and alignment
 - Integration with VS Code's formatting capabilities
 - Option to run via command palette, keyboard shortcut, or context menu
+
+## Contributing
+
+We welcome contributions! Please see our [contributing guide](CONTRIBUTING.md) for more information.
 
 ## License
 
