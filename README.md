@@ -80,10 +80,6 @@ If you encounter issues with formatting:
 - Integration with VS Code's formatting capabilities
 - Option to run via command palette, keyboard shortcut, or context menu
 
-## Contributing
-
-We welcome contributions! Please see our [contributing guide](CONTRIBUTING.md) for more information.
-
 ## License
 
 This extension is licensed under the [MIT License](LICENSE).
