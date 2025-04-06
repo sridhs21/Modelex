@@ -1,6 +1,6 @@
 # Modelex - Code Beautifier
 
-![Code Beautifier Logo](assets/images/full_logo.png)
+<img src="assets/images/full_logo.png" alt="Code Beautifier Logo" width="400" height="400">
 
 ## Overview
 Modelex is a VS Code extension that formats and beautifies your code for improved readability and consistency. It supports multiple programming languages and integrates seamlessly with VS Code's formatting capabilities.
