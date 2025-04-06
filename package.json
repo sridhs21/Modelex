@@ -3,6 +3,11 @@
   "displayName": "Code Beautifier",
   "description": "Beautify and format your code without external dependencies",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sridhs21/Modelex.git"
+  },
+  "publisher": "your-publisher-name",
   "engines": {
     "vscode": "^1.60.0"
   },
